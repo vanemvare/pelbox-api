@@ -1,0 +1,1 @@
+docker container run --name=pelbox-pg --detach --env-file .env --network pelbox --publish 5000:5432 --volume pelbox-pg-v:/var/lib/postgresql/data postgres:13.0-alpine
