@@ -478,3 +478,4 @@ INSERT INTO box_locking (member_id) VALUES (33);
 
 ALTER TABLE box_locking ADD COLUMN dismantle boolean DEFAULT false;
 ALTER TABLE box_locking ADD COLUMN expanding_value int DEFAULT 0;
+ALTER TABLE box_locking ADD COLUMN door_open boolean DEFAULT false;
